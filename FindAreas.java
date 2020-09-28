@@ -13,8 +13,8 @@ class Figure {
     }
 }
 
-class Rectangle extends Figure {
-    Rectangle(double a, double b) {
+class Rectangle1 extends Figure {
+    Rectangle1(double a, double b) {
         super(a, b);
     }
 
@@ -25,8 +25,8 @@ class Rectangle extends Figure {
     }
 }
 
-class Triangle extends Figure {
-    Triangle(double a, double b) {
+class Triangle1 extends Figure {
+    Triangle1(double a, double b) {
         super(a, b);
     }
 
@@ -37,11 +37,11 @@ class Triangle extends Figure {
     }
 }
 
-class FindAreas {
+public class FindAreas {
     public static void main(String args[]) {
         Figure f = new Figure(10, 10);
-        Rectangle r = new Rectangle(9, 5);
-        Triangle t = new Triangle(10, 8);
+        Rectangle1 r = new Rectangle1(9, 5);
+        Triangle1 t = new Triangle1(10, 8);
         Figure figref;
         figref = r;
         System.out.println("Area is " + figref.area());
