@@ -1,4 +1,4 @@
-package Inheritance;
+package Super;
 
 class Employee{
     void display(){
