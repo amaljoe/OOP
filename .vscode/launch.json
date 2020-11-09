@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyClass",
+            "request": "launch",
+            "mainClass": "MyClass",
+            "projectName": "OOP_77516d57"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSynchronization1",
+            "request": "launch",
+            "mainClass": "TestSynchronization1",
+            "projectName": "OOP_77516d57"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestSleepMethod1",
+            "request": "launch",
+            "mainClass": "TestSleepMethod1",
+            "projectName": "OOP_77516d57"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Multi",
+            "request": "launch",
+            "mainClass": "Multi",
+            "projectName": "OOP_77516d57"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionHandling",
+            "request": "launch",
+            "mainClass": "ExceptionHandling",
+            "projectName": "OOP_77516d57"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Computer<OOP_77516d57>",
+            "request": "launch",
+            "mainClass": "Computer",
+            "projectName": "OOP_77516d57"
+        }
+    ]
+}
